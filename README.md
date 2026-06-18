@@ -17,3 +17,5 @@ Project Structure
 
  Technologie Used
 - HTML5
+- style css
+- java script
