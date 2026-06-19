@@ -3,114 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tau Logistics | Your Industrial Supplies & Services</title>
-    <meta name="description" content="Tau Logistics: Your trusted provider of plastic drums, flushing chemical toilets, transport hire, and more. Based in Ga-Masemola, South Africa">
+    <title>Tau Logistics | Industrial Supplies & Services</title>
+    <meta name="description" content="Tau Logistics: Your trusted provider of plastic drums, flushing chemical toilets, transport hire, and more. Based in Ga-Masemola, South Africa.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+
     <header>
         <nav class="navbar">
             <a href="index.html" class="logo-wrapper">
                 <div class="logo-icon">TL</div>
                 <span class="logo-text">TAU LOGISTICS</span>
-
             </a>
 
-        <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="enquiry.html">Enquiry</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="enquiry.html" class="cta-btn">Book Now</a></li>
-        </ul>
-    </nav>
+            <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
+
+            <ul class="nav-links nav-menu">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enquiry.html" class="cta-btn">Book Now</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <Section class="About-Hero">
+
+        <section class="search-section">
+            <div class="container">
+                <div class="search-container">
+                    <label for="logistic-search">Search Our Inventory:</label>
+                    <input type="text" id="logistic-search" placeholder="Type to search (e.g. Drums, Toilets, Transport)...">
+                    <div id="search-results" class="search-results-dropdown"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="About-Hero">
             <div class="pattern-overlay"></div>
             <div class="container">
-                <!--Below is the information of when and where did the organisation start-->
-                <span class="badge">EST. 2024 • GA-MASEMOLA, SOUTH AFRICA</span>
+                <span class="badge">EST. 2024 &bull; GA-MASEMOLA, SOUTH AFRICA</span>
                 <h2>Your TRUSTED <br><span class="highlight">INDUSTRIAL</span><br>SUPPLIER</h2>
                 <p>Providing the best products and logistics for your industrial needs since 2024.</p>
-
                 <div class="cta-buttons">
-                    <!--Below are the buttons where you have to click them to take you to the pages of viewing products and book now-->
-                 <a href="products.html" class="btn-cyan">VIEW PRODUCTS</a> 
-                <a href="enquiry.html" class="btn-cyan">BOOK NOW</a> 
+                    <a href="products.html" class="btn-cyan">View Products</a>
+                    <a href="enquiry.html" class="btn-outline-white">Book Now</a>
+                </div>
             </div>
-            </div>
-
             <div class="hero-stats">
                 <div class="stat-card">
                     <h2>6+</h2>
-                    <p>PRODUCTS</p>
+                    <p>Products</p>
                 </div>
             </div>
         </section>
 
         <section id="Services" class="services-section">
             <div class="container">
-                <!--Below is what we offer-->
-            <h3 class="section-title">Services We Offer:</h3>
-            
-            <div class="services-grid">
-                <div class="service-card"> 
-                    <div class="card-image">
-                        <h4>Flushing toilets chemicals</h4>
-                        <img src="asset/chemicals.avif" alt="Flushing Chemicals">
-                        <p>High-quality sanitation solutions for events and industrial use.</p>
-                    </div>
-                </div>
+                <h3 class="section-title">Services We Offer</h3>
+                <div class="services-grid">
 
-                    <div class="card-body">
-                        <h4>Transport Hire</h4>
-                        <img src="asset/delivery truck.jpg" alt="Logistics delivery truck">
-                        <p>Reliable transport services for your industrial goods.</p>
-                    </div>
-                </div>
-
-                <div class="card-body">
-                        <h4>Indusrial drums</h4>
-                        <img src="asset/Drums.jpeg" alt="Blue plastic industrial drums">
-                    </div>
+                    <div class="service-card">
+                        <div class="card-image">
+                            <img src="asset/chemicals.avif" alt="Flushing Chemicals">
+                        </div>
+                        <div class="card-body">
+                            <h4>Flushing Toilet Chemicals</h4>
+                            <p>High-quality sanitation solutions for events and industrial use.</p>
+                        </div>
                     </div>
 
-                    <div class="card-body">
-                        <h4>Plastic containers</h4>
-                        <img src="asset/containers.jpg" alt="Blue containers of 20/25L"> 
-                        <p>Blue containers of 20/25L</p>
+                    <div class="service-card">
+                        <div class="card-image">
+                            <img src="asset/delivery truck.jpg" alt="Logistics delivery truck">
+                        </div>
+                        <div class="card-body">
+                            <h4>Transport Hire</h4>
+                            <p>Reliable transport services for your industrial goods.</p>
+                        </div>
                     </div>
-                    </div>
-                <div class="card-body">
-                    <h4>Galvanized beds</h4>
-                    <img src="asset/galvanized bed.jpg" alt="Queen or King size mattress">
-                    <p>King and Queen size mattress/bed</p>
-                </div>
-                </div>
-                </div>
-                </section>
 
-        <section class="contact-cta">
-            <div class="container">
-           <div class="cta-content-box">
-            <body>
-                <span class="badge-alt"><center><b>READY TO ORDER?</b></center></span>
-                <h2>GET IN TOUCH TODAY</h2>
-                <p>Contact us via WhatsApp, phone, or our online enquiry form. We respond quickly and deliver reliably.</p>
-                <div class="cta-buttons">
-                    <!--Below are there easy ways to reach out to us-->
-                    <a href="enquiry.html" class="btn-dark">SEND AN ENQUIRY</a>
-                    <a href="contact.html" class="btn-outline">CONTACT DETAILS</a>
-                    </body>
+                    <div class="service-card">
+                        <div class="card-image">
+                            <img src="asset/Drums.jpeg" alt="Blue plastic industrial drums">
+                        </div>
+                        <div class="card-body">
+                            <h4>Industrial Drums</h4>
+                            <p>Heavy duty storage drums for liquid and solid materials.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-image">
+                            <img src="asset/containers.jpg" alt="Blue containers 20/25L">
+                        </div>
+                        <div class="card-body">
+                            <h4>Plastic Containers</h4>
+                            <p>Blue containers of 20/25L capacity for various uses.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="card-image">
+                            <img src="asset/galvanized bed.jpg" alt="Galvanized bed">
+                        </div>
+                        <div class="card-body">
+                            <h4>Galvanized Beds</h4>
+                            <p>King and Queen size mattress and bed sets.</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
+
+        <section class="contact-cta">
+            <div class="container">
+                <div class="cta-content-box">
+                    <span class="badge-alt">Ready to Order?</span>
+                    <h2>Get In Touch Today</h2>
+                    <p>Contact us via WhatsApp, phone, or our online enquiry form. We respond quickly and deliver reliably.</p>
+                    <div class="cta-buttons">
+                        <a href="enquiry.html" class="btn-dark">Send an Enquiry</a>
+                        <a href="contact.html" class="btn-outline">Contact Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
-<!--This is our footer page-->
+
     <footer class="main-footer">
         <div class="footer-container">
             <div class="footer-brand">
@@ -122,7 +146,7 @@
             </div>
 
             <div class="footer-column">
-                <h3>PAGES</h3>
+                <h3>Pages</h3>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
@@ -133,29 +157,30 @@
             </div>
 
             <div class="footer-column">
-                <h3>PRODUCTS</h3>
+                <h3>Products</h3>
                 <ul>
-                    <li><a href="asset/Drums.jpeg">Plastic Drums</a></li>
-                    <li><a href="asset/chemicals.avif">Chemical Toilets</a></li>
-                    <li><a href="asset/delivery truck.jpg">Transport Hire</a></li>
-                    <li><a href="asset/galvanized bed.jpg">Galvanized beds</a></li>
-                    <li><a href="asset/containers.jpg">Containers 20/25L</a></li>
+                    <li><a href="products.html">Plastic Drums</a></li>
+                    <li><a href="products.html">Chemical Toilets</a></li>
+                    <li><a href="products.html">Transport Hire</a></li>
+                    <li><a href="products.html">Galvanized Beds</a></li>
+                    <li><a href="products.html">Containers 20/25L</a></li>
                 </ul>
             </div>
 
             <div class="footer-column">
-                <h3>CONTACT</h3>
+                <h3>Contact</h3>
                 <p>083 926 7769</p>
                 <p>071 081 7950</p>
                 <p>Ga-Masemola, Malope</p>
-                <p>Send enquiry</p>
+                <p><a href="enquiry.html" style="color:inherit;">Send Enquiry</a></p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>Copyright 2026 Tau Logistics. All Rights Reserved.</p>
+            <p>Copyright &copy; 2026 Tau Logistics. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <div class="toast" id="toast"></div>
+    <script src="script.js"></script>
 </body>
 </html>
-
-    
